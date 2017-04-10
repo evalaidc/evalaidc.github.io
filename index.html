@@ -5,17 +5,51 @@
     <title>Eva Lai</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
   </head>
   <body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Look Around</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#resume" onclick=$("#menu-close").click();>Resume</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+<!-- Previous Layout -->
+    <!-- <nav>
+    </nav>
     <header>
       <h1> Eva Lai </h1>
       <img id='selfPhoto' src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1920091_10153851455780004_1477614720_n.jpg?oh=124c95f10bcf7aa8d8853b21d77b844b&oe=5931F546" >
       <h2> Creator | Learner | Explorer </h2>
-      <nav>
-        <a href='#'>About Me</a>
-        <a href='#'>My Work</a>
-        <a href='#'>Contact</a>
-      </nav>
     </header>
     <main>
       <section class='aboutMe'>
@@ -32,6 +66,13 @@
       <a class='contactList' href='#'><img src='img/facebook-icon.png'></a>
       <a class='contactList' href='#'><img src='img/githubsrc.png'></a>
       <a class='contactList' href='#'><img src='img/gmail.png'></a>
-    </footer>
+    </footer> -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

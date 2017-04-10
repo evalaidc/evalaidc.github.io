@@ -1,11 +1,11 @@
-
+/*
 header {
 
 }
 body {
   display: block;
   text-align: center;
-  background: url("img/blueridge.jpg") no-repeat;
+  background: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
@@ -36,4 +36,4 @@ footer {
 #selfPhoto {
   width: 250px;
   height: 200px;
-}
+}*/
