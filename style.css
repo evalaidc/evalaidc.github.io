@@ -1,39 +1,80 @@
-/*
-header {
-
-}
-body {
-  display: block;
-  text-align: center;
-  background: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  font-family: 'Playfair Display', serif;
-  margin: 0 auto;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-h2 {
-  font-size: 14px;
-}
-footer {
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* background image styling. */
+.background-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.contactList>img {
-  max-height: 50px;
-  max-width: 50px;
-  width: auto;
-  height: auto;
+/* Styles for the alternating / transition effect. */
+.toggle-image {
+ 	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+ 	height: 100%;
+	transition: opacity 1s ease-in-out;
 }
+
+/* Styles for the specific images. */
+.first-image {
+	background-image: url('img/background_imgs/inside_tower.jpg');
+	z-index: -3;
+	opacity: 0;
+}
+
+.second-image {
+	background-image: url('img/background_imgs/parents_hometown.jpg');
+	z-index: -2;
+	opacity: 0;
+}
+
+.third-image {
+	background-image: url('img/background_imgs/field_of_flowers.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+.fourth-image {
+	background-image: url('img/background_imgs/red_lanterns.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+.fifth-image {
+	background-image: url('img/background_imgs/victorias_bridge.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+.sixth-image {
+	background-image: url('img/background_imgs/taipei_101.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+
+.first-image.show {
+	opacity: 1;
+}
+
+.second-image.show {
+	opacity: 1;
+}
+
+.third-image.show {
+	opacity: 1;
+}
+.fourth-image.show {
+	opacity: 1;
+}
+
+.fifth-image.show {
+	opacity: 1;
+}
+
+.sixth-image.show {
+	opacity: 1;
+}
+
+
+/*style for photo under About*/
 #selfPhoto {
   width: 250px;
   height: 200px;
-}*/
+}
