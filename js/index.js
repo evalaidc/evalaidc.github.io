@@ -64,7 +64,7 @@ function cycleBackgrounds() {
 		// Hide the previous image.
 		$imageEls.eq(index - 1).removeClass('show');
 
-	}, 3000);
+	}, 3500);
 };
 
 // Document Ready.
