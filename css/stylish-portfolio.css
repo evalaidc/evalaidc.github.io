@@ -19,15 +19,19 @@ body {
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    vertical-align: top;
+    vertical-align: center;
     z-index: 2;
-    color: rgb(148,186,233);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: auto;
+    padding-bottom: 0;
+    padding-top: 20%;
 }
 
-.text-vertical-center h1 {
+.text-vertical-center h3 {
     margin: 20px 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -167,7 +171,7 @@ hr.small {
 /* About */
 
 .about {
-    padding: 5px 0;
+    padding: 0 0;
 }
 
 /* Services */
@@ -198,6 +202,12 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    height: 100%;
+    background-image: url("http://lifeoftaiwan.com/wp-content/uploads/2013/03/mountains-taiwan.jpg");
+  	background-position: center;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+    color: white;
 }
 
 .portfolio-item {
@@ -206,6 +216,8 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    height: 200px;
+    width: 350px;
 }
 
 .img-portfolio:hover {

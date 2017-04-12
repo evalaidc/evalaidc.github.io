@@ -1,3 +1,8 @@
+/*putting space between top heading and link*/
+.heading{
+	background-color: rgba(0,0,0,0.4);
+}
+
 /* background image styling. */
 .background-image {
 	background-position: center center;
@@ -81,7 +86,7 @@
 }
 
 /*styling for about-quote*/
-.quote {
+/*.quote {
 	background-image: url("http://lifeoftaiwan.com/wp-content/uploads/2013/03/mountains-taiwan.jpg");
 	background-position: center;
 	background-size: cover;
@@ -92,4 +97,34 @@
 }
 .quote > h3 {
 	margin: 15px 50px;
+	text-shadow: 2px 2px 4px #000000;
+}
+.quote > h4 {
+	margin: 15px 50px;
+	text-shadow: 2px 2px 4px #000000;
+}*/
+
+/*styling for about subsections*/
+.about-txt-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 80%;
+}
+.aboutTxt {
+	width: 40%;
+}
+.experience {
+ width: 40%;
+ height: 100%;
+ vertical-align: center;
+}
+#expTxt {
+	text-align: left;
+	height: 100%;
+	vertical-align: center;
+}
+
+pre {
+	width: 450px;
 }
