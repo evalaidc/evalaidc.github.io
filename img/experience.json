@@ -1,3 +1,18 @@
 {
-  "FrontEnd": ["JavaScript/jQuery","Angular.js","React.js"]
+  "FrontEnd": ["JavaScript/jQuery","HTML5/CSS3","Angular.js","React.js","Three.js"],
+  "BackEnd": ["Mongoose","Rails","Sinatra", "Node.js"],
+  "Databases": ["MongoDB","PostgreSQL","MySQL"],
+  "Education": [
+    {
+      "University": "The University of North Carolina at Chapel Hill",
+      "Focus": "Exercise and Sport Science",
+      "Minors": ["Biology", "Chemistry"],
+      "YearGraduated": 2015
+    }
+    {
+      "University": "General Assembly - DC",
+      "Focus": "Web Development Immersive Program",
+      "YearGraduated": 2017
+    }
+  ]
 }
