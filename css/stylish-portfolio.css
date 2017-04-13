@@ -219,6 +219,11 @@ hr.small {
   	background-repeat: no-repeat;
     color: white;
 }
+.portfolio >.container {
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 90%;
+}
 
 .portfolio-item {
     margin-bottom: 30px;
