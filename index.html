@@ -8,9 +8,18 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/jquery.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/152635/ThrowPropsPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/utils/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" ></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/152635/codepen-ga.js" ></script>
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-
+    <link href="font-awesome/css/wheel.css" rel="stylesheet" />
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -129,8 +138,73 @@
     </section>
 
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
+        <section id="portfolio" class="portfolio">
+      <div class='wheelContainer'>
+          <svg class="svg-mask" width="900px" height="800px" viewBox="0 0 900 600">
+     <defs>
+      <clipPath id="quarterMask">
+        <path d="M299.001,26.649L0,325.65c330.267,330.268,865.736,330.268,1196.004,0L897.003,26.649
+    	C731.868,191.784,464.136,191.784,299.001,26.649z"/>
+      </clipPath>
+     </defs>
+    </svg>
+    <div class="headerWheel"></div>
+    <div class="content">
+      <ul class="featured-slider-wheel" id="wheel">
+        <li class="active">
+          <div class="wheelSubImage">
+              <div class="wheelDetails">
+        <h1 class="wheelSubTitle">Lorem Ipsum</h1>
+        <hr class="small" />
+        <h6 class="roles">Videography / Editing</h6>
+        <a href="#" class="wheelButton">View Project</a>
+      </div>
+            <img src="https://unsplash.it/1200/900" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="wheelSubImage">
+              <div class="wheelDetails">
+        <h1 class="wheelSubTitle">Lorem Ipsum</h1>
+        <hr class="small" />
+        <h6 class="roles">Videography / Editing</h6>
+        <a href="#" class="wheelButton">View Project</a>
+      </div>
+            <img src="https://unsplash.it/1200/901" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="wheelSubImage">
+              <div class="wheelDetails">
+        <h1 class="wheelSubTitle">Lorem Ipsum</h1>
+        <hr class="small" />
+        <h6 class="roles">Videography / Editing</h6>
+        <a href="#" class="wheelButton">View Project</a>
+      </div>
+            <img src="https://unsplash.it/1200/902" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="wheelSubImage">
+              <div class="wheelDetails">
+                <h1 class="wheelSubTitle">Lorem Ipsum</h1>
+                <hr class="small" />
+                <h6 class="roles">Videography / Editing</h6>
+                <a href="#" class="wheelButton">View Project</a>
+              </div>
+            <img src="https://unsplash.it/1200/903" alt="" />
+          </div>
+        </li>
+      </ul>
+      <div class='wheelControls'>
+        <a class="prev">Prev</a>
+        <a class="next">Next</a>
+      </div>
+    </div>
+
+    <div id="pentitle" style="display: none;" data-title="29/52 - Circular Slider"></div>
+    <div>
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2> My Creations</h2>
@@ -157,15 +231,15 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- /.row (nested) -->
                     <!-- When Have more than 4 Projects, will use this link -->
                     <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
-                </div>
+                <!-- </div> -->
                 <!-- /.col-lg-10 -->
-            </div>
+            <!-- </div> -->
             <!-- /.row -->
-        </div>
+        <!-- </div> -->
         <!-- /.container -->
     </section>
     <!-- <section id="contact" >
@@ -208,7 +282,7 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

@@ -212,12 +212,14 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
-    height: 100%;
-    background-image: url("http://lifeoftaiwan.com/wp-content/uploads/2013/03/mountains-taiwan.jpg");
+    height: 700px;
+    /*background-image: url("http://lifeoftaiwan.com/wp-content/uploads/2013/03/mountains-taiwan.jpg");
   	background-position: center;
   	background-size: cover;
-  	background-repeat: no-repeat;
+  	background-repeat: no-repeat;*/
     color: white;
+    /*opacity: 0.3;*/
+    overflow: hidden;
 }
 .portfolio >.container {
     background-color: rgba(0,0,0,0.4);
