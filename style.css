@@ -85,25 +85,6 @@
   height: 200px;
 }
 
-/*styling for about-quote*/
-/*.quote {
-	background-image: url("http://lifeoftaiwan.com/wp-content/uploads/2013/03/mountains-taiwan.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
-	opacity: 0.9;
-}
-.quote > h3 {
-	margin: 15px 50px;
-	text-shadow: 2px 2px 4px #000000;
-}
-.quote > h4 {
-	margin: 15px 50px;
-	text-shadow: 2px 2px 4px #000000;
-}*/
-
 /*styling for about subsections*/
 .about-txt-container {
 	display: flex;
