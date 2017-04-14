@@ -182,6 +182,7 @@ hr.small {
 
 .about {
     padding: 0 0;
+    background-color: rgba(252,245,235,0.8);
 }
 
 /* Services */
@@ -218,6 +219,7 @@ hr.small {
   	background-size: cover;
   	background-repeat: no-repeat;*/
     color: white;
+    background: rgba(143,188,219,0.9);
     /*opacity: 0.3;*/
     overflow: hidden;
 }
