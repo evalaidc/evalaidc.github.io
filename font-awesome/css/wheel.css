@@ -96,7 +96,8 @@ hr.small {
     transition: opacity 0.5s ease;
     opacity: 0.25; }
     .featured-slider-wheel li.active {
-      opacity: 1; }
+      opacity: 1;
+      z-index: 2;}
     .featured-slider-wheel li:nth-child(1) {
       transform: translate(-50%, -50%) rotate(0deg); }
     .featured-slider-wheel li:nth-child(2) {

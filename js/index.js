@@ -112,7 +112,7 @@ function dragActive() {
   TweenMax.staggerTo('#wheel li.active .wheelDetails > *', 0.6,   {
     opacity: 0,
     y: -10
-  }, 0.1)
+    }, 0.1)
 
   $('#wheel li.active').removeClass('active')
   $($('#wheel li')[index]).addClass('active')
