@@ -110,3 +110,8 @@
 pre {
 	width: 450px;
 }
+
+.lead > * {
+	 color:black;
+	 text-decoration: none;
+}

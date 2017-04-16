@@ -127,10 +127,13 @@ hr.small {
 
 .wheelControls {
   position: relative;
-  left: 50%;
+  left: 51.5%;
   transform: translate(-50%, -50%);
   z-index: 100;
-  width: 100%; }
+  width: 100%;
+  font-size: 20px;
+  top: 200px;
+  }
   .wheelControls .prev,
   .wheelControls .next {
     background-color: black;
