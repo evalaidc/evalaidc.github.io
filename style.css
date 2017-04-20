@@ -115,3 +115,10 @@ pre {
 	 color:black;
 	 text-decoration: none;
 }
+#portfolio {
+	text-align: center;
+	background: rgba(143,188,219,0.9);
+	color: white;
+	margin: 0;
+
+}
